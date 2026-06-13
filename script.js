@@ -30,8 +30,8 @@
     s = (s<10) ? "0"+s:s;
 
     hours.innerHTML = h + "<br><span>Hours</br></span>";
-    minuts.innerHTML = m + "<br><span>Seconds</br></span>";
-    seconds.innerHTML = s +"<br><span>Minutes</br></span>";
+    minuts.innerHTML = m + "<br><span>Minutes</br></span>";
+    seconds.innerHTML = s +"<br><span>Seconds</br></span>";
     ampm.innerHTML = am;
 
     hh.style.strokeDashoffset = 440 - (440 * h) / 12;
